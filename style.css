@@ -390,7 +390,7 @@ footer {
     width: 20px;
   }
 }
-@media (max-width: 380px) {
+@media (max-width: 375px) {
   .header_left {
     gap: 10px;
   }
@@ -412,7 +412,7 @@ footer {
     gap: 5px;
   }
   .gta6_banner {
-    max-width: 380px;
+    max-width: 375px;
   }
   .icon_p {
     font-size: 10px;
@@ -427,13 +427,13 @@ footer {
     width: 110px;
   }
   .game_box_heading {
-    max-width: 360px;
+    max-width: 355px;
   }
   .game_box_h {
     font-size: 10px;
   }
   .bottom_box {
-    max-width: 360px;
+    max-width: 355px;
     height: 210px;
   }
   .bottom_img {
