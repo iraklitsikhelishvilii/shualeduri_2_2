@@ -1,0 +1,310 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+header {
+  width: 100%;
+  height: 112px;
+  background-color: #020202;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header_left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 47px;
+}
+.header_left_p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: -0.176px;
+}
+.yellow_btn {
+  width: 193px;
+  height: 52px;
+  background-color: #fcaf17;
+  color: #020202;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: -0.22px;
+  border: none;
+  border-radius: 10px;
+}
+.header_right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.header_right_icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+section {
+  background-color: #101010;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.gta6_banner {
+  max-width: 1349px;
+}
+.game_box {
+  display: flex;
+  align-items: center;
+  padding-top: 80px;
+  flex-direction: column;
+}
+.game_box_heading {
+  width: 1160px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.game_box_icons {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.game_icon1 {
+  width: 70px;
+  height: 32px;
+  border-radius: 100px;
+  background-color: #606060;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.game_icon2 {
+  width: 106px;
+  height: 32px;
+  border-radius: 100px;
+  background-color: #606060;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.game_icon3 {
+  width: 196px;
+  height: 32px;
+  border-radius: 100px;
+  background-color: #606060;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon_p {
+  color: #f6f6f6;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: -0.176px;
+}
+.game_box_h {
+  color: #f6f6f6;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 150%;
+  letter-spacing: -0.528px;
+}
+.game_photos {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding-top: 40px;
+}
+#game_box_btn {
+  margin-top: 64px;
+}
+.game_box2_h_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.game_box2 {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding-top: 40px;
+}
+.game_box2_h {
+  color: #f6f6f6;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 150%;
+  letter-spacing: -0.528px;
+  padding-top: 110px;
+}
+.gta_6_box {
+  width: 860px;
+  height: 555px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #020202;
+  background-image: url(./photos/smallGTA\ 6.svg);
+  background-repeat: no-repeat;
+  justify-content: end;
+  padding-left: 32px;
+  padding-bottom: 20px;
+  border-radius: 15px;
+  gap: 10px;
+}
+.game_box2_left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.gta_6_box_h {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: -0.352px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.gta_6_box_p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 150%;
+  letter-spacing: -0.176px;
+  color: #797979;
+}
+.game_box2_right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+.rokstar_box {
+  width: 260px;
+  height: 255px;
+  border-radius: 16px;
+  background-color: #020202;
+  background-image: url(./photos/rocstar.svg);
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding: 15px;
+}
+.rokstar_box_h {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: -0.143px;
+}
+.rokstar_box_p {
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 150%;
+  letter-spacing: -0.132px;
+  color: #797979;
+}
+.car_box {
+  width: 260px;
+  height: 255px;
+  border-radius: 16px;
+  background-color: #020202;
+  background-image: url(./photos/car.svg);
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding: 15px;
+}
+.bottom_box {
+  width: 1160px;
+  height: 535px;
+  background-image: url(./photos/fundo.svg);
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  gap: 81px;
+  margin-top: 110px;
+  margin-bottom: 95px;
+}
+.game_louncer_box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 32px;
+}
+.game_louncer_box_heading {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.game_louncer_box_h {
+  color: #020202;
+  font-size: 41.574px;
+  font-weight: 800;
+  line-height: 120%;
+  letter-spacing: -0.457px;
+}
+.game_louncer_box_p {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: -0.352px;
+  color: #020202;
+}
+footer {
+  background-color: #020202;
+  width: 100%;
+  height: 238px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.footer_right {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.footer_p {
+  color: #b1b1b1;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: -0.176px;
+}
+.left_contenr {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.footer_p {
+  color: #b1b1b1;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 150%;
+  letter-spacing: -0.143px;
+}
+.footer_icon {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+.footer_right_minor {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
