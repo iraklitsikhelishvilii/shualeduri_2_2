@@ -56,6 +56,8 @@ header {
   gap: 24px;
 }
 section {
+  max-width: 1440px;
+  width: 100%;
   background-color: #101010;
   display: flex;
   align-items: center;
@@ -127,6 +129,7 @@ section {
   align-items: center;
   gap: 40px;
   padding-top: 40px;
+  max-width: 1440px;
 }
 #game_box_btn {
   margin-top: 64px;
@@ -307,4 +310,166 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 8px;
+}
+@media (max-width: 600px) {
+  .header_left {
+    display: flex;
+    gap: 30px;
+  }
+  .yellow_btn {
+    height: 40px;
+    width: 140px;
+    font-size: 14px;
+  }
+  .gta6_banner {
+    max-width: 550px;
+  }
+  .game_box_heading {
+    max-width: 550px;
+  }
+  .game_box_h {
+    font-size: 17px;
+    font-weight: 600px;
+  }
+  .game_photos {
+    max-width: 550px;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .game_box2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .gta_6_box {
+    max-width: 260px;
+    height: 255px;
+    background-size: 350px;
+    padding: 15px;
+  }
+  .gta_6_box_h {
+    font-size: 13px;
+  }
+  .gta_6_box_p {
+    font-size: 12px;
+  }
+  .bottom_box {
+    max-width: 550px;
+    height: 300px;
+    gap: 48px;
+  }
+  .bottom_img {
+    width: 330px;
+  }
+  .game_louncer_box_h {
+    font-size: 13px;
+  }
+  .game_louncer_box_p {
+    font-size: 13px;
+  }
+  .bottom_rokstar_logo {
+    width: 50px;
+  }
+  #game_box_btn {
+    width: 193px;
+    height: 52px;
+    font-size: 20px;
+  }
+  .footer_right {
+    gap: 25px;
+  }
+  .footer_p {
+    font-size: 10px;
+  }
+  .footer_logo {
+    width: 50px;
+  }
+  .icon {
+    width: 20px;
+  }
+}
+@media (max-width: 380px) {
+  .header_left {
+    gap: 10px;
+  }
+  .footer_logo {
+    width: 50px;
+  }
+  .yellow_btn {
+    height: 30px;
+    width: 80px;
+    font-size: 10px;
+  }
+  .header_icon {
+    width: 30px;
+  }
+  .header_right {
+    gap: 5px;
+  }
+  .header_right_icons {
+    gap: 5px;
+  }
+  .gta6_banner {
+    max-width: 380px;
+  }
+  .icon_p {
+    font-size: 10px;
+  }
+  .game_icon1 {
+    width: 40px;
+  }
+  .game_icon2 {
+    width: 60px;
+  }
+  .game_icon3 {
+    width: 110px;
+  }
+  .game_box_heading {
+    max-width: 360px;
+  }
+  .game_box_h {
+    font-size: 10px;
+  }
+  .bottom_box {
+    max-width: 360px;
+    height: 210px;
+  }
+  .bottom_img {
+    width: 200px;
+  }
+  .bottom_rokstar_logo {
+    width: 35px;
+  }
+  .game_louncer_box_h {
+    font-size: 10px;
+  }
+  .game_louncer_box {
+    gap: 13px;
+  }
+  .game_louncer_box_p {
+    font-size: 10px;
+  }
+  .footer_logo {
+    width: 30px;
+  }
+  .footer_p {
+    font-size: 8px;
+  }
+  .footer_right {
+    gap: 10px;
+  }
+  .footer_right_minor {
+    gap: 5px;
+  }
+  .icon {
+    width: 15px;
+  }
+  .footer_icon {
+    gap: 20px;
+  }
+  footer {
+    gap: 10px;
+  }
 }
