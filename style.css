@@ -490,10 +490,10 @@ footer {
     font-size: 10px;
   }
   .footer_logo {
-    width: 30px;
+    width: 20px;
   }
   .footer_p {
-    font-size: 8px;
+    font-size: 6px;
   }
   .footer_right {
     gap: 10px;
@@ -505,10 +505,10 @@ footer {
     width: 15px;
   }
   .footer_icon {
-    gap: 20px;
+    gap: 10px;
   }
   footer {
-    gap: 10px;
+   justify-content: space-evenly;
   }
   .game_box2_right {
     flex-direction: column;
